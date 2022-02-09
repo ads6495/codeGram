@@ -24,7 +24,10 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
+                    <div class="title-container">
+                        <div style="margin-right: 10px;"><img src="https://raw.githubusercontent.com/coderstape/freeCodeGram/d79365defb9baadaacb7fb33a5b74256a4ab3904/public/svg/freeCodeCampLogo.svg" style="height: 25px;"></div>
+                        <div>{{ config('app.name', 'Laravel') }}</div>
+                    </div>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
